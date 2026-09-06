@@ -1,0 +1,17 @@
+{
+    "name": "libcodec2",
+    "description": "Codec 2 low-bitrate speech decoder",
+    "filters":["codec2dec"],
+    "help": "This filter decodes Codec 2 speech files (.c2) using libcodec2. Output is always 8 kHz mono.",
+    "support": [
+        "audio"
+    ],
+    "sources":"https://bevara.ddns.net/sources/libcodec2.accessor",
+    "filter_source":{
+        "codec2dec" : "dec_codec2.c"
+    },
+    "extension":{
+      "c2" : "audio"
+    },
+    "licence_required":false
+}
