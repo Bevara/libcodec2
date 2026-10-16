@@ -1,5 +1,6 @@
 {
     "name": "libcodec2",
+    "version": "1.0.1",
     "description": "Codec 2 low-bitrate speech decoder",
     "filters":["codec2dec"],
     "help": "This filter decodes Codec 2 speech files (.c2) using libcodec2. Output is always 8 kHz mono.",
