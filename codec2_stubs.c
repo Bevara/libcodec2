@@ -1,5 +1,5 @@
 /*
- *  Symbols libcodec2 references that solver_minimal_1 does not export. A side
+ *  Symbols libcodec2 references that mm_solver_minimal_1.0.1 does not export. A side
  *  module whose imports are not all resolved never instantiates at all -
  *  emscripten reports it by crashing inside its own reportUndefinedSymbols,
  *  which names nothing - so each has to be defined here.
